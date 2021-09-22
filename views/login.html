@@ -1,0 +1,116 @@
+<!-- =======================================================================================
+  Html:         logim.html - Mercado-Liebre
+
+  Summary:      For educational purpose creates a sample JS application.
+  Disclaimer:   Mercado-Liebre is a not comertial app.
+
+  Date:         September 21, 2021
+
+  Develop By:   Angel Antognoli
+
+--------------------------------------------------------------------------------------------
+  Related Code: form.css
+ 
+  Dependencies: package.json
+--------------------------------------------------------------------------------------------
+  This code is part of the javascript Code Samples ONLY for Educational purposes.
+  Mercado-Liebre is a NOT comertial app for comertial purposes.
+
+  This source code is intended only as a supplement to javascript
+  Development Tools and/or on-line documentation.
+  See these other materials for detailed information regarding javascript code samples.
+
+  All data and Code in this database is ficticious.
+  
+  THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, 
+  EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED 
+  WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
+======================================================================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Iniciar sesión</title>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/pageNotFound.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght300;400;700&display=swap">
+    <script src="https://kit.fontawesome.com/cd8fa35da4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <a href="/"><img src="/images/logo-mercado-liebre.svg" class="logo" alt="logo mercado libre"></a>
+         <div class = 'search'>
+             <input type="search" name="search" placeholder="Buscar productos, marcas">
+             <input type="submit" class="icono_placeholder" value="">
+         </div>
+            <h2 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+             </h2>
+        </div>
+        <a href="#" class="burguer-menu">
+         <i class="fas fa-bars"></i>
+        </a>
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+ 
+            <ul class="right-navbar">
+                <li><a href="/register">Creá tu cuenta <i class="far fa-address-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+         </nav>
+    </header>
+    <form action="/" method="GET">
+    <label for="nombre">Nombre de usuario:</label>
+    <input type="text" name="nombre" id="nombre" required minlength="2" placeholder="Ej.: usuario@dominio.com">
+
+    <label for="pass">Contraseña:</label>
+    <input type="password" name="pass" id="pass" required minlength="8" placeholder="Contraseña">
+
+    <div class="buttons-form">
+    <button type="submit">Enviar</button>
+    </div>
+</form>
+    <footer>
+        <section>
+    
+            <article>
+                <i class="fas fa-credit-card iconos-footer"></i>
+                <h4 class="footer-title">Pagá con tarjeta o en efectivo</h4>
+                <p class="footer-paragraph">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </article>
+    
+            <article>
+                <i class="fas fa-gift iconos-footer"></i>
+                <h4 class="footer-title">Envío gratis desde $ 2.500</h4>
+                <p class="footer-paragraph">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos</p>
+            </article>
+    
+            <article>
+                <i class="fas fa-user-shield iconos-footer"></i>
+                <h4 class="footer-title">Seguridad, de principio a fin</h4>
+                <p class="footer-paragraph">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+            </article>
+   
+        </section>
+
+        <article class="footer-legals">
+            <p class="footer-paragraph">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </article>
+
+    </footer>
+</body>
+</html>

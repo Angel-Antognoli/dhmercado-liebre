@@ -1,0 +1,25 @@
+{
+  "name": "mercado-liebre",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angel Antognoli",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "description": "For educational purpose creates a sample JS application.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angel-Antognoli/mercado-liebre.git"
+  },
+  "keywords": [
+    "liebre"
+  ],
+  "bugs": {
+    "url": "https://github.com/Angel-Antognoli/mercado-liebre/issues"
+  },
+  "homepage": "https://github.com/Angel-Antognoli/mercado-liebre#readme"
+}
